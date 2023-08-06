@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import core.pojo.Core;
-import web.member.pojo.Member;
+import core.entity.Core;
+import web.member.entity.Member;
 
 @WebServlet("/member/save")
 public class SaveServlet extends HttpServlet {

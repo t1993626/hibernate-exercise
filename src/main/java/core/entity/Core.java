@@ -1,4 +1,4 @@
-package core.pojo;
+package core.entity;
 
 import java.io.Serializable;
 

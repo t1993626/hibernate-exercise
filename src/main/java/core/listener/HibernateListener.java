@@ -1,4 +1,4 @@
-package core.util.listener;
+package core.listener;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
