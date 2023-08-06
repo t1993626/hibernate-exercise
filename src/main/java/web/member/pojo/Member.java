@@ -31,14 +31,18 @@ public class Member extends Core {
 	private Boolean pass;
 	@Column(name = "ROLE_ID")
 	private Integer roleId;
-	@Column(name="CREATOR",insertable = false)
+	@Column(name = "CREATOR", insertable = false)
 	private String creator;
-	@Column(name = "CREATED_DATE",insertable = false)
+	@Column(name = "CREATED_DATE", insertable = false)
 	private Timestamp createdDate;
 	@Column(insertable = false)
 	private String updater;
-	@Column(name = "LAST_UPDATED_DATE",insertable = false)
+	@Column(name = "LAST_UPDATED_DATE", insertable = false)
 	private Timestamp lastUpdatedDate;
 
-	
+	public Member(String username, String nickname) {
+		this.username = username;
+		this.nickname = nickname;
+	}
+
 }
